@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g id="Grupo_4" data-name="Grupo 4">
+      <path id="Retângulo_8" data-name="Retângulo 8" class="cls-1" d="M20.5,0h0c1.1,0,2,.9,2,2v37c0,1.1-.9,2-2,2h0c-1.1,0-2-.9-2-2V2c0-1.1.9-2,2-2Z"/>
+      <path id="Retângulo_9" data-name="Retângulo 9" class="cls-1" d="M41,20.5h0c0,1.1-.9,2-2,2H2c-1.1,0-2-.9-2-2h0c0-1.1.9-2,2-2h37c1.1,0,2,.9,2,2Z"/>
+    </g>
+  </g>
+</svg>
