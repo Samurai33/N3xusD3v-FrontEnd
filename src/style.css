@@ -3,7 +3,6 @@ body {
 }
 
 .main {
-    display: flex;
     position: fixed;
     top: 10px;
     left: 5px;
@@ -11,13 +10,23 @@ body {
     bottom: 30px;
 }
 
+.content {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.m-auto {
+    margin: auto;
+}
+
 .cartao {
     margin: auto;
 }
 
 .container {
-    width: 314px;
-    height: 323px;
+    width: 334px;
+    height: 343px;
     padding: 32px;
     background: #E5E5E5 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 3px 10px #16161629, 0px -3px 6px #FFFFFFB3;
@@ -28,12 +37,6 @@ body {
 .containerMenor {
     width: 100%;
     height: 100%;
-    /* border-radius: 10%;
-    box-shadow: 2px 2px 30px #46464685; */
-    /* background-color: blue; */
-    /* align-items: center;
-    align-self: center; */
-    /* margin: 30px; */
     background: #E5E5E5 0% 0% no-repeat padding-box;
     box-shadow:  inset 0px 0px 15px #0000003d, 0px 0px 30px #00000036;
     border-radius: 32px;
@@ -48,15 +51,25 @@ body {
     margin: auto;
 }
 
+.redes-desk {
+    margin-top: 10px;
+    padding-right: 16px;
+}
+
+.redes-desk .barraWhats {
+    height: 52px;
+    width: 100%;
+    border-radius: 18px;
+}
+
 .barraWhats {
-    width: 324px;
+    width: 334px;
     height: 72px;
     background: #E5E5E5 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFFFFFB3;
     border-radius: 25px;
     opacity: 1;
     color: #6F6A5E;
-    margin-top: 40px;
     display: flex;
     cursor: pointer;
     text-decoration: none;
@@ -164,4 +177,120 @@ body {
     border-radius: 13px;
     opacity: 1;
     display: flex;
+}
+
+.text-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 16px;
+    color: #707070;
+}
+
+@media (max-width: 940px) {
+    .desk {
+        display: none;
+    }
+}
+
+@media (min-width: 940px) {
+    .mobile {
+        display: none;
+    }
+    .container {
+        width: 364px;
+        height: 373px;
+    }
+    .containerMenor img {
+        width: 182px;
+        height: 129px;
+    }
+}
+
+.card-setor {
+    margin-right: 30px;
+    width: 72px;
+    align-items: center;
+}
+
+.card-setor div {
+    width: 62px;
+    height: 62px;
+    background-image: url('./assets/Logo-branco.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 46px;
+    border-radius: 20px;
+    margin: auto;
+    opacity: 1;
+}
+
+.card-setor legend {
+    letter-spacing: 0.59px;
+    color: #707070;
+    opacity: 1;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.preto {
+    background-color: #000000;
+}
+.azul {
+    background-color: #0197D6;
+}
+.verde {
+    background-color: #40A809;
+}
+.cinza {
+    background-color: #AAAAAA;
+}
+.laranja {
+    background-color: #F48500;
+}
+#azul-d {
+    background-image: linear-gradient(145deg, #43A5A1 13%, #43A3A6 29%, #439DB4 49%, #4493CC 70%, #4686EE 92%, #4781FD 100%);
+    background-repeat: repeat;
+    background-size: auto;
+}
+#roxo-d {
+    background-image: linear-gradient(152deg, #FF00FF 0%, #0197D6 100%);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h1 {
+    text-align: left;
+    font: normal normal medium;
+    font-size: 38px;
+    letter-spacing: 0px;
+    color: #00000099;
+    opacity: 1;
+    margin-bottom: 28px;
+}
+
+div.small {
+    font-size: 14px;
+}
+
+.color-text {
+    letter-spacing: 0.59px;
+    color: #707070;
+    opacity: 1;
+    font-size: 14px;
+}
+
+svg:hover path {
+    fill: #219FFF;
+}
+
+.icon-svg-g {
+    width: 24px;
+}
+.icon-svg-m {
+    width: 20px;
+}
+.icon-svg-p {
+    width: 13px;
 }
