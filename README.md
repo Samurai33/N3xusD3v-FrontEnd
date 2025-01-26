@@ -139,7 +139,7 @@ How to Run the Project
 1. **Clone o Repositório**  
    Clone the Repository  
    ```bash
-   git clone https://github.com/seu-usuario/nexus-frontend.git
+   git clone https://github.com/Samurai33/N3xusD3v-FrontEnd.git
    ```
 
 2. **Navegue para o Diretório**  
